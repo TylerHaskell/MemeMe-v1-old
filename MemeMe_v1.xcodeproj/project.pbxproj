@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		739FB00F204B6738004778F6 /* Meme photo picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meme photo picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		739FB00F204B6738004778F6 /* MemeMe_v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMe_v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		739FB012204B6738004778F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		739FB014204B6738004778F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		739FB017204B6738004778F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		739FB006204B6738004778F6 = {
 			isa = PBXGroup;
 			children = (
-				739FB011204B6738004778F6 /* Meme photo picker */,
+				739FB011204B6738004778F6 /* MemeMe_v1 */,
 				739FB010204B6738004778F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		739FB010204B6738004778F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				739FB00F204B6738004778F6 /* Meme photo picker.app */,
+				739FB00F204B6738004778F6 /* MemeMe_v1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		739FB011204B6738004778F6 /* Meme photo picker */ = {
+		739FB011204B6738004778F6 /* MemeMe_v1 */ = {
 			isa = PBXGroup;
 			children = (
 				739FB012204B6738004778F6 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				739FB01B204B6738004778F6 /* LaunchScreen.storyboard */,
 				739FB01E204B6738004778F6 /* Info.plist */,
 			);
-			path = "Meme photo picker";
+			path = MemeMe_v1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		739FB00E204B6738004778F6 /* Meme photo picker */ = {
+		739FB00E204B6738004778F6 /* MemeMe_v1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 739FB021204B6738004778F6 /* Build configuration list for PBXNativeTarget "Meme photo picker" */;
+			buildConfigurationList = 739FB021204B6738004778F6 /* Build configuration list for PBXNativeTarget "MemeMe_v1" */;
 			buildPhases = (
 				739FB00B204B6738004778F6 /* Sources */,
 				739FB00C204B6738004778F6 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "Meme photo picker";
+			name = MemeMe_v1;
 			productName = "Meme photo picker";
-			productReference = 739FB00F204B6738004778F6 /* Meme photo picker.app */;
+			productReference = 739FB00F204B6738004778F6 /* MemeMe_v1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 739FB00A204B6738004778F6 /* Build configuration list for PBXProject "Meme photo picker" */;
+			buildConfigurationList = 739FB00A204B6738004778F6 /* Build configuration list for PBXProject "MemeMe_v1" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				739FB00E204B6738004778F6 /* Meme photo picker */,
+				739FB00E204B6738004778F6 /* MemeMe_v1 */,
 			);
 		};
 /* End PBXProject section */
@@ -275,9 +275,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Meme photo picker/Info.plist";
+				INFOPLIST_FILE = MemeMe_v1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tyler.Meme-photo-picker";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyler.MemeMe_v1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,9 +289,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Meme photo picker/Info.plist";
+				INFOPLIST_FILE = MemeMe_v1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tyler.Meme-photo-picker";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyler.MemeMe_v1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,7 +301,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		739FB00A204B6738004778F6 /* Build configuration list for PBXProject "Meme photo picker" */ = {
+		739FB00A204B6738004778F6 /* Build configuration list for PBXProject "MemeMe_v1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				739FB01F204B6738004778F6 /* Debug */,
@@ -310,7 +310,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		739FB021204B6738004778F6 /* Build configuration list for PBXNativeTarget "Meme photo picker" */ = {
+		739FB021204B6738004778F6 /* Build configuration list for PBXNativeTarget "MemeMe_v1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				739FB022204B6738004778F6 /* Debug */,

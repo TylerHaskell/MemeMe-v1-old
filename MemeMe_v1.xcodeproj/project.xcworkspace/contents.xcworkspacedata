@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Meme photo picker.xcodeproj">
+      location = "self:../MemeMe_v1">
    </FileRef>
 </Workspace>
